@@ -1,0 +1,17 @@
+/* Base spine edge (level 0-1 vertical backbone) */
+.baseEdge {
+  stroke: #6C70FE;
+  stroke-opacity: 0.9;
+}
+
+/* Branch edges (level 2+) */
+.otherEdge {
+  stroke: #7dd3fc;
+  stroke-opacity: 0.85;
+}
+
+/* Invisible clone spacer edges */
+.edgeClone {
+  visibility: hidden;
+  pointer-events: none;
+}
